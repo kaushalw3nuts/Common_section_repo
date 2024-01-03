@@ -1,0 +1,186 @@
+
+@media (max-width: 767px) {
+
+	.who_we { padding: 30px 0 30px 0;}
+	.who_we .who_we_sec { padding: 40px 0 0 0; display: block;}
+	.who_we .imgbox { height: 300px; border-radius: 10px;}
+	.accordion_main { margin-top: 20px;}
+	.accordion_main .accordion-button { font-size: 20px;}
+	.accordion_main .accordion-collapse .who_body p { font-size: 16px;}
+	.who_we .accordion-button::before { display: none; }
+	.who_we_sec .who_body { padding: 0;}
+
+
+	.welcome_sec .block_wrap .imgbox {display: none;}
+    .welcome_sec .block_wrap .textblock {width: 100%;min-height: auto;}
+
+
+	.procedure_wrap .topnumbox{height: 40px;width: 40px;top: -20px;}
+    .procedurebox{padding: 30px 0;}
+    .procedurebox .titlebox{padding: 0 0 20px;}
+    .accordion a {font-size: 16px;padding: 15px 0 14px;}
+    .procedurebox .titlebox h3 {font-size: 20px;}
+	.procedurebox .titlebox h2 { font-size: 30px; }
+    .procedure_wrap .topnumbox span {font-size: 28px;}
+    .accordion li p{padding: 15px 0;font-size: 16px;}
+    .accordion { max-width: 100%;padding: 0 15px;}    
+    .procedure_wrap { padding: 40px 0;}
+
+
+	.succes_story_wrap{padding: 70px 0;}
+	.cd-image-container{height: 250px;}
+    .successbox .story_row{gap: 30px;flex-direction: column;}
+    .successbox .story_col{width: 100%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.who_we { padding: 40px 0;}
+	.who_we .who_we_sec { display: contents;}
+	.who_we .we_meditate { padding: 0 0 30px 0;}
+	.accordion_main { margin: 45px 0 0 0; max-width: 100%;}
+	.who_we .accordion-button::before { display: none; }
+	.accordion_main .accordion-button { font-size: 20px; padding: 20px 0;}
+	.accordion_main .accordion-collapse .who_body p { font-size: 16px;}
+	.who_we .imgbox { height: 360px; }
+	.who_we_sec .who_body .more-link a { font-size: 16px;}
+
+
+	.welcome_sec .block_wrap .imgbox {display: none;}
+    .welcome_sec .block_wrap .textblock {width: 100%;min-height: auto;}
+
+
+	.procedure_wrap .topnumbox{height: 40px;width: 40px;top: -28px;}
+    .procedurebox{padding: 40px 0 40px;}
+    .procedurebox .titlebox{padding: 0 0 20px;}
+    .accordion a {font-size: 18px;}
+    .procedurebox .titlebox h3 {font-size: 22px;}
+	.procedurebox .titlebox h2 { font-size: 34px; }
+    .procedure_wrap .topnumbox span {font-size: 34px;}
+    .accordion li p{padding: 15px 0;font-size: 16px;}
+    .accordion { max-width: 650px;}    
+    .procedure_wrap { padding: 60px 0;}
+
+
+	.succes_story_wrap{padding: 70px 0;}
+	.cd-image-container{height: 200px;}
+    .successbox .story_row{gap: 30px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.who_we { padding: 40px 0; }
+	.who_we .who_we_sec { padding: 30px 0 0 0;}
+	.accordion_main .accordion-button { font-size: 18px; padding: 18px 0;}
+	.who_we_sec .who_body .more-link a { font-size: 17px; }
+	.animal_shelter .shelter { width: auto; margin: 0 15px; }
+	.accordion_main .accordion-collapse .who_body p { font-size: 14px;}
+	.accordion_main { margin: 40px 0 0 60px;}
+	.who_we .accordion-button::before {width: 78px; margin-right: 20px;}
+	.who_we .imgbox { height: 370px;}
+
+
+	.welcome_sec .block_wrap .textblock {min-height: auto;}
+	.welcome_sec .block_wrap .imgbox {max-width: 300px;}
+    .welcome_sec .block_wrap h3 {font-size: 40px;}
+
+
+	.procedure_wrap .topnumbox{height: 50px;width: 50px;top: -28px;}
+	.procedurebox{padding: 50px 0 50px;}
+	.procedurebox .titlebox{padding: 0 0 30px;}
+	.procedurebox .titlebox h3 {font-size: 24px;}
+	.procedurebox .titlebox h2 { font-size: 36px; }
+	.accordion li p{padding: 15px 0;}
+	.procedure_wrap { padding: 70px 0;}
+
+
+	.succes_story_wrap{padding: 80px 0;}
+	.cd-image-container{height: 250px;}
+    .successbox .story_row{gap: 30px;}
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+
+	.who_we { padding: 40px 0 60px; }
+    .who_we .who_we_sec { padding: 30px 0 0 0; }
+    .who_we .imgbox { height: 470px; }
+    .accordion_main { margin-left: 45px; padding-left: 20px; margin-top: 60px;}
+    .who_we .accordion-button::before { margin-right: 20px; width: 100px;}
+    .accordion_main .who_item { width: 420px;}
+    .accordion_main .accordion-collapse .who_body p { font-size: 16px;}
+    .accordion_main .accordion-button { font-size: 22px; padding: 25px 0;}
+    .who_we_sec .who_body .more-link a { font-size: 14px;}
+
+
+	.welcome_sec .block_wrap .textblock {min-height: 400px;}
+	.welcome_sec .block_wrap .imgbox {max-width: 300px;}
+    .welcome_sec .block_wrap h3 {font-size: 40px;}
+
+
+	.procedure_wrap .topnumbox{height: 50px;width: 50px;}
+    .procedurebox{padding: 50px 0 50px;}
+    .procedurebox .titlebox{padding: 0 0 30px;}
+    .accordion li p{padding: 15px 0;}
+    .procedure_wrap { padding: 80px 0;}
+
+
+	.succes_story_wrap{padding: 90px 0;}
+	.cd-image-container{height: 280px;}
+    .successbox .story_row{gap: 30px;}
+}
+
+@media (min-width: 1301px) and (max-width: 1399px) {
+
+	.who_we { padding: 40px 0 60px; }
+    .who_we .who_we_sec { padding: 30px 0 0 0; }
+    .who_we .imgbox { height: 470px; }
+    .accordion_main { margin-left: 45px; padding-left: 20px; margin-top: 60px;}
+    .who_we .accordion-button::before { margin-right: 20px; width: 100px;}
+    .accordion_main .who_item { width: 420px;}
+    .accordion_main .accordion-collapse .who_body p { font-size: 16px;}
+    .accordion_main .accordion-button { font-size: 22px; padding: 25px 0;}
+    .who_we_sec .who_body .more-link a { font-size: 14px;}
+
+
+	.welcome_sec .block_wrap .textblock {min-height: 400px;}
+
+
+	.procedure_wrap .topnumbox{height: 60px;width: 60px;}
+	.procedurebox{padding: 50px 0 50px;}
+	.procedurebox .titlebox{padding: 0 0 30px;}
+	.accordion li p{padding: 15px 0;}
+	.procedure_wrap { padding: 100px 0;}
+
+
+	.succes_story_wrap{padding: 100px 0;}
+	.cd-image-container{height: 280px;}
+    .successbox .story_row{gap: 30px;}
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+
+	.who_we { padding: 40px 0 60px; }
+    .who_we .who_we_sec { padding: 30px 0 0 0; }
+    .who_we .imgbox { height: 470px; }
+    .accordion_main { margin-left: 45px; padding-left: 20px; margin-top: 60px;}
+    .who_we .accordion-button::before { margin-right: 20px; width: 100px;}
+    .accordion_main .who_item { width: 420px;}
+    .accordion_main .accordion-collapse .who_body p { font-size: 16px;}
+    .accordion_main .accordion-button { font-size: 22px; padding: 25px 0;}
+    .who_we_sec .who_body .more-link a { font-size: 14px;}
+
+
+	.welcome_sec .block_wrap .textblock {min-height: 400px;}
+	
+
+	.procedure_wrap .topnumbox{height: 60px;width: 60px;}
+    .procedurebox{padding: 50px 0 60px;}
+    .procedurebox .titlebox{padding: 0 0 30px;}
+    .accordion li p{padding: 15px 0;}
+    .procedure_wrap { padding: 110px 0;}
+
+
+	.succes_story_wrap{padding: 100px 0;}
+	.cd-image-container{height: 280px;}
+    .successbox .story_row{gap: 30px;}
+}
