@@ -400,3 +400,30 @@ button { cursor: pointer;transition: all .3s ease-in-out; }
 .procedure_wrap .topnumbox span{font-size: 45px;line-height: 1.37;font-weight: 500;color: #CE9B32;}
 
 /* procedure accrodian:nd */
+
+/* hair pigmentation :st */
+
+.hair_pigmentation_sec { width: 100%; position: relative; padding: 0 0 196px 0; }
+.hair_pigmentation_inner { width: 100%; position: relative; background-color: #ffffff; -webkit-box-shadow: 0 0 99px rgba(0,0,0,0.16); -moz-box-shadow: 0 0 99px rgba(0,0,0,0.16); -ms-box-shadow: 0 0 99px rgba(0,0,0,0.16); box-shadow: 0 0 99px rgba(0,0,0,0.16); border-radius: 25px; padding: 71px 126px 88px; }
+.hair_pigmentation_heading { width: 100%; position: relative; text-align: center; }
+.hair_pigmentation_heading h2 { font-weight: 500; line-height: 1.3777778; color: #CE9B32; }
+.hair_pigmentation_heading h6 { font-weight: normal; font-size: 26px; line-height: 1.115384; color: #040404; padding: 16px 0 0 0; }
+.hair_pigmentation_heading { padding: 0 0 76px 0; }
+.hair_pigmentation_bottom { width: 100%; position: relative; display: -ms-flexbox; display: flex; align-items: flex-start; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.hair_pigmentation_left_img { width: calc(100% - 538px); padding: 0 39px 0 0; }
+.hair_pigmentation_right_select { width: 538px; }
+.hair_pigmentation_right_select_inner { width: 100%; position: relative; }
+.hair_pigmentation_select_list { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0 -11px; row-gap: 27px; }
+.hair_pigmentation_select_list li { display: -ms-flexbox; display: flex; padding: 0 11px; width: 50%; }
+.hair_pigmentation_img_box { position: relative; width: 100%; overflow: hidden; border-radius: 25px; }
+.hair_pigmentation_img_box:after { content: ''; display: block; padding: 36.365% 50%; }
+.hair_pigmentation_img_box img { width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; opacity: 0; visibility: hidden; }
+.hair_pigmentation_img_box img.active_image { opacity: 1; visibility: visible; }
+.hair_pigmentation_select_box,
+a.hair_pigmentation_select_box { width: 100%; position: relative; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; align-items: center; align-content: center; justify-content: center; border-radius: 15px; border: solid 1px #CE9B32; padding: 29px 15px 26px; text-align: center; }
+.hair_pigmentation_select_box .top_select_title { font-family: "neue-haas-unica",sans-serif; font-size: 18px; font-weight: 300; color: #040404; line-height: 1.333333; }
+.hair_pigmentation_select_box .bottom_select_value { font-weight: 400; font-size: 29px; line-height: 1.137931; color: #040404; padding: 8px 0 0 0; }
+.hair_pigmentation_select_box .bottom_select_arragement { font-weight: 400; font-size: 20px; line-height: 1.15; color: #040404; padding: 11px 0 0 0; }
+.hair_pigmentation_select_box.active_selector_btn ,
+a.hair_pigmentation_select_box.active_selector_btn { background-color: #FFF1D4; }
+/* hair pigmentation :nd */

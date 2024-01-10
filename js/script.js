@@ -192,3 +192,18 @@ jQuery(document).ready(function($) {
 })(jQuery);
 
 // accordian function end
+
+// hair_pigmentation :st
+$(document).ready(function() {
+	$('.hair_pigmentation_select_list li a').on('click', function () {
+		$(".hair_pigmentation_select_list li a").removeClass('active_selector_btn');
+		$(this).toggleClass('active_selector_btn');
+
+		var attr= $(this).attr("data-select-btn");
+		// console.log(attr);
+		$('.hair_pigmentation_img_box img').removeClass("active_image");
+		$('.hair_pigmentation_img_box img[data-image-id="'+attr+'"]').addClass("active_image");
+	});
+	
+});
+// hair_pigmentation :nd
