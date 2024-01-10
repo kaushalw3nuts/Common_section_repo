@@ -36,14 +36,16 @@
     .successbox .story_row{gap: 30px;flex-direction: column;}
     .successbox .story_col{width: 100%;}
 
+
+    .hair_pigmentation_sec { padding-bottom: 60px; }
 	.hair_pigmentation_inner{padding: 30px 15px;}
+    .hair_pigmentation_heading h2 { font-size: 30px; }
     .hair_pigmentation_heading h6{font-size: 20px;}
     .hair_pigmentation_left_img {width:100%;padding: 0;}
     .hair_pigmentation_select_box .top_select_title{font-size: 16px;}
     .hair_pigmentation_select_box .bottom_select_arragement{font-size: 14px;}
     .hair_pigmentation_right_select { width: 100%;}
     .hair_pigmentation_select_list{padding: 30px 0 0 0;row-gap: 15px;}
-    /* .imagesbox .img_row .img_col .imgbox{ height: auto; } */
     .hair_pigmentation_heading {padding: 0 0 40px 0;}
     .hair_pigmentation_select_box .bottom_select_value{font-size: 16px;}
 }
@@ -81,6 +83,9 @@
 	.cd-image-container{height: 200px;}
     .successbox .story_row{gap: 30px;}
 
+
+    .hair_pigmentation_sec { padding-bottom: 70px; }
+    .hair_pigmentation_heading h2 { font-size: 40px; }
 	.hair_pigmentation_inner{padding: 50px;}
     .hair_pigmentation_heading h6{font-size: 22px;}
     .hair_pigmentation_left_img {width:100%;}
@@ -119,6 +124,9 @@
 	.cd-image-container{height: 250px;}
     .successbox .story_row{gap: 30px;}
 
+
+    .hair_pigmentation_sec { padding-bottom: 70px; }
+    .hair_pigmentation_heading h2 { font-size: 50px; }
 	.hair_pigmentation_inner{padding: 50px;}
 	.hair_pigmentation_left_img {width: calc(100% - 450px);}
 	.hair_pigmentation_right_select { width: 450px;}
