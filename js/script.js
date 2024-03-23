@@ -194,6 +194,7 @@ jQuery(document).ready(function($) {
 // accordian function end
 
 // hair_pigmentation :st
+
 $(document).ready(function() {
 	$('.hair_pigmentation_select_list li a').on('click', function () {
 		$(".hair_pigmentation_select_list li a").removeClass('active_selector_btn');
@@ -206,4 +207,5 @@ $(document).ready(function() {
 	});
 	
 });
+
 // hair_pigmentation :nd
